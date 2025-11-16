@@ -1,0 +1,40 @@
+Command: /opt/schrodinger/suites2025-2/mmshare-v7.0/bin/Darwin-x86_64/../../python/scripts/prepwizard_driver.py proteinprep_5j79.maegz proteinprep_5j79-out.maegz -fillsidechains -disulfides -assign_all_residues -rehtreat -max_states 1 -epik_pH 7.4 -epik_pHt 2.0 -antibody_cdr_scheme Kabat -samplewater -include_epik_states -propka_pH 7.4 -f S-OPLS -rmsd 0.3 -watdist 5.0
+Number of input structures: 3
+
+Running subjobs on hosts:
+  localhost (Max: 4)
+Number of jobs:       3
+Max retries per job:  0
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+C A W | Activity  JobId  JobName  JobHost
+- - - | --------- -----------------------
+0 1 2 | launched  Ganeshs-MacBook-Pro-2-0-6914cf18 proteinprep_5j79-001 localhost [Ganeshs-MacBook-Pro-2]
+0 2 1 | launched  Ganeshs-MacBook-Pro-2-0-6914cf1a proteinprep_5j79-002 localhost [Ganeshs-MacBook-Pro-2]
+0 3 0 | launched  Ganeshs-MacBook-Pro-2-0-6914cf1d proteinprep_5j79-003 localhost [Ganeshs-MacBook-Pro-2]
+1 2 0 | finished  Ganeshs-MacBook-Pro-2-0-6914cf1a proteinprep_5j79-002 localhost [Ganeshs-MacBook-Pro-2]
+2 1 0 | finished  Ganeshs-MacBook-Pro-2-0-6914cf18 proteinprep_5j79-001 localhost [Ganeshs-MacBook-Pro-2]
+3 0 0 | finished  Ganeshs-MacBook-Pro-2-0-6914cf1d proteinprep_5j79-003 localhost [Ganeshs-MacBook-Pro-2]
+
+All jobs have completed.
+
+3 of 3 job(s) succeeded; 0 job(s) failed.
+
+Subjob completed successfully: proteinprep_5j79-001
+Subjob completed successfully: proteinprep_5j79-003
+ERROR: Following structures failed to prepare:
+  5J79_chainA_waters
+Total number of failed structures: 1
+Number of successful preparations: 2
+Number of output structures: 2
+DONE. Output file: proteinprep_5j79-out.maegz
+[running at reduced cpu priority]

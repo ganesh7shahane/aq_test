@@ -1,0 +1,1 @@
+"${SCHRODINGER}/run" combotask_entry_point.py -task_json .proteinprep_5j79-002_52z4i91vz8hb_frontend.json -JOBNAME proteinprep_5j79-002

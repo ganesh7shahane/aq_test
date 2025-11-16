@@ -1,0 +1,1207 @@
+######## begin of glide-dock_XP_5j79_noConstraints-0001.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d526
+Name           : glide-dock_XP_5j79_noConstraints-0001
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0001
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0001.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:02
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    1 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =    -10.920
+GlideScore(  -10.92)+Epik State Penalty(    0.01) =   -10.91 kcal/mol
+DOCKING RESULTS FOR LIGAND        1 (11)
+Best XP pose:     9;  GlideScore =    -10.92 Emodel =    -70.86 E =    -51.69 Eint =     5.21
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    1 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =     -5.819
+GlideScore(   -5.82)+Epik State Penalty(    2.63) =    -3.19 kcal/mol
+DOCKING RESULTS FOR LIGAND        2 (11)
+Best XP pose:     1;  GlideScore =     -5.82 Emodel =    -65.67 E =    -47.18 Eint =     4.90
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0001_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:55:51 GMT
+CPU time (s): 42.3 user, 0.8 system, 45.9 real
+Total elapsed time = 46 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0001.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0002.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d529
+Name           : glide-dock_XP_5j79_noConstraints-0002
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0002
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0002.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:05
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 2
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    1 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =     -7.706
+GlideScore(   -7.71)+Epik State Penalty(    0.02) =    -7.69 kcal/mol
+DOCKING RESULTS FOR LIGAND        3 (10)
+Best XP pose:    12;  GlideScore =     -7.71 Emodel =    -66.92 E =    -48.33 Eint =     6.76
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    5 poses will be postminimized for this ligand
+Reporting postminimized pose   3 GlideScore =     -5.562
+GlideScore(   -5.56)+Epik State Penalty(    2.20) =    -3.36 kcal/mol
+DOCKING RESULTS FOR LIGAND        4 (10)
+Best XP pose:    10;  GlideScore =     -5.56 Emodel =    -62.41 E =    -44.70 Eint =     6.75
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0002_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:55:51 GMT
+CPU time (s): 39.8 user, 0.8 system, 43.0 real
+Total elapsed time = 43 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0002.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0003.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d52c
+Name           : glide-dock_XP_5j79_noConstraints-0003
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0003
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0003.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:08
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 4
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    6 poses will be postminimized for this ligand
+Reporting postminimized pose   2 GlideScore =     -7.826
+GlideScore(   -7.83)+Epik State Penalty(    0.01) =    -7.82 kcal/mol
+DOCKING RESULTS FOR LIGAND        5 (9)
+Best XP pose:     2;  GlideScore =     -7.83 Emodel =    -57.47 E =    -46.76 Eint =    11.97
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    3 poses will be postminimized for this ligand
+Reporting postminimized pose   2 GlideScore =     -5.084
+GlideScore(   -5.08)+Epik State Penalty(    2.63) =    -2.45 kcal/mol
+DOCKING RESULTS FOR LIGAND        6 (9)
+Best XP pose:     2;  GlideScore =     -5.08 Emodel =    -62.26 E =    -45.52 Eint =     0.71
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0003_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:55:50 GMT
+CPU time (s): 35.1 user, 0.7 system, 38.2 real
+Total elapsed time = 38 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0003.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0004.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d52f
+Name           : glide-dock_XP_5j79_noConstraints-0004
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0004
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0004.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:11
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 6
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    2 poses will be postminimized for this ligand
+Reporting original pose   1 GlideScore =     -9.212
+GlideScore(   -9.21)+Epik State Penalty(    0.05) =    -9.16 kcal/mol
+DOCKING RESULTS FOR LIGAND        7 (8)
+Best XP pose:    13;  GlideScore =     -9.21 Emodel =    -64.28 E =    -42.70 Eint =     7.26
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    1 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =     -9.835
+GlideScore(   -9.83)+Epik State Penalty(    1.60) =    -8.24 kcal/mol
+DOCKING RESULTS FOR LIGAND        8 (8)
+Best XP pose:    17;  GlideScore =     -9.83 Emodel =    -72.59 E =    -50.07 Eint =     2.32
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0004_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:55:59 GMT
+CPU time (s): 40.7 user, 0.8 system, 44.0 real
+Total elapsed time = 44 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0004.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0005.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d532
+Name           : glide-dock_XP_5j79_noConstraints-0005
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0005
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0005.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:15
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 8
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    2 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =    -10.665
+GlideScore(  -10.66)+Epik State Penalty(    0.24) =   -10.43 kcal/mol
+DOCKING RESULTS FOR LIGAND        9 (7)
+Best XP pose:    10;  GlideScore =    -10.66 Emodel =    -61.04 E =    -43.45 Eint =     1.16
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            3
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    3 poses will be postminimized for this ligand
+Reporting postminimized pose   2 GlideScore =     -8.239
+GlideScore(   -8.24)+Epik State Penalty(    0.66) =    -7.58 kcal/mol
+DOCKING RESULTS FOR LIGAND       10 (7)
+Best XP pose:     7;  GlideScore =     -8.24 Emodel =    -55.52 E =    -39.27 Eint =     1.52
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0005_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:56:00 GMT
+CPU time (s): 38.9 user, 0.8 system, 42.1 real
+Total elapsed time = 42 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0005.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0006.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d536
+Name           : glide-dock_XP_5j79_noConstraints-0006
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0006
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0006.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:18
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 10
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    3 poses will be postminimized for this ligand
+Reporting postminimized pose   3 GlideScore =    -10.970
+GlideScore(  -10.97)+Epik State Penalty(    0.19) =   -10.78 kcal/mol
+DOCKING RESULTS FOR LIGAND       11 (6)
+Best XP pose:    11;  GlideScore =    -10.97 Emodel =    -70.09 E =    -50.24 Eint =     5.23
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    4 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =     -5.792
+GlideScore(   -5.79)+Epik State Penalty(    0.77) =    -5.02 kcal/mol
+DOCKING RESULTS FOR LIGAND       12 (6)
+Best XP pose:     6;  GlideScore =     -5.79 Emodel =    -66.11 E =    -46.08 Eint =     0.81
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0006_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:56:28 GMT
+CPU time (s): 61.9 user, 0.9 system, 65.3 real
+Total elapsed time = 65 seconds (1 minutes, 5 seconds)
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0006.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0007.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d53b
+Name           : glide-dock_XP_5j79_noConstraints-0007
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0007
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0007.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:23
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 12
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    2 poses will be postminimized for this ligand
+Reporting original pose   2 GlideScore =    -11.755
+GlideScore(  -11.76)+Epik State Penalty(    0.04) =   -11.71 kcal/mol
+DOCKING RESULTS FOR LIGAND       13 (5)
+Best XP pose:     9;  GlideScore =    -11.76 Emodel =    -82.63 E =    -53.39 Eint =    12.11
+GLIDE WARNING: The above ligand had one or more atoms outside the grid box during energy evaluation or minimization.
+52 out of 17547275 energy evaluations were affected.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    7 poses will be postminimized for this ligand
+Reporting postminimized pose   6 GlideScore =     -6.771
+GlideScore(   -6.77)+Epik State Penalty(    1.62) =    -5.15 kcal/mol
+DOCKING RESULTS FOR LIGAND       14 (5)
+Best XP pose:     1;  GlideScore =     -6.77 Emodel =    -77.34 E =    -54.27 Eint =     6.82
+GLIDE WARNING: The above ligand had one or more atoms outside the grid box during energy evaluation or minimization.
+9 out of 17763460 energy evaluations were affected.
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0007_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:57:38 GMT
+CPU time (s): 125.7 user, 1.2 system, 130.0 real
+Total elapsed time = 130 seconds (2 minutes, 10 seconds)
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0007.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0008.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d540
+Name           : glide-dock_XP_5j79_noConstraints-0008
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0008
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0008.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:28
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 14
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    4 poses will be postminimized for this ligand
+Reporting postminimized pose   4 GlideScore =    -11.643
+GlideScore(  -11.64)+Epik State Penalty(    0.04) =   -11.60 kcal/mol
+DOCKING RESULTS FOR LIGAND       15 (12)
+Best XP pose:     6;  GlideScore =    -11.64 Emodel =    -84.25 E =    -56.10 Eint =     7.03
+GLIDE WARNING: The above ligand had one or more atoms outside the grid box during energy evaluation or minimization.
+23 out of 13954109 energy evaluations were affected.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    4 poses will be postminimized for this ligand
+Reporting postminimized pose   4 GlideScore =    -11.446
+GlideScore(  -11.45)+Epik State Penalty(    0.04) =   -11.40 kcal/mol
+DOCKING RESULTS FOR LIGAND       16 (12)
+Best XP pose:     1;  GlideScore =    -11.45 Emodel =    -87.13 E =    -56.88 Eint =     3.53
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0008_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:57:29 GMT
+CPU time (s): 112.5 user, 1.2 system, 116.4 real
+Total elapsed time = 116 seconds (1 minutes, 56 seconds)
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0008.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0009.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d55b
+Name           : glide-dock_XP_5j79_noConstraints-0009
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0009
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0009.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:55:56
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 16
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    9 poses will be postminimized for this ligand
+Reporting postminimized pose   3 GlideScore =     -6.754
+GlideScore(   -6.75)+Epik State Penalty(    1.62) =    -5.13 kcal/mol
+DOCKING RESULTS FOR LIGAND       17 (12)
+Best XP pose:    16;  GlideScore =     -6.75 Emodel =    -76.44 E =    -54.16 Eint =    13.76
+GLIDE WARNING: The above ligand had one or more atoms outside the grid box during energy evaluation or minimization.
+1 out of 17792896 energy evaluations were affected.
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            7
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+   10 poses will be postminimized for this ligand
+Reporting postminimized pose   2 GlideScore =     -6.612
+GlideScore(   -6.61)+Epik State Penalty(    1.62) =    -4.99 kcal/mol
+DOCKING RESULTS FOR LIGAND       18 (12)
+Best XP pose:    19;  GlideScore =     -6.61 Emodel =    -71.19 E =    -48.89 Eint =     6.53
+GLIDE WARNING: The above ligand had one or more atoms outside the grid box during energy evaluation or minimization.
+1 out of 18062347 energy evaluations were affected.
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0009_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:57:58 GMT
+CPU time (s): 116.4 user, 0.9 system, 118.8 real
+Total elapsed time = 119 seconds (1 minutes, 59 seconds)
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0009.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0010.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d55f
+Name           : glide-dock_XP_5j79_noConstraints-0010
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0010
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0010.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:56:00
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 18
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    3 poses will be postminimized for this ligand
+Reporting postminimized pose   2 GlideScore =    -11.047
+GlideScore(  -11.05)+Epik State Penalty(    0.37) =   -10.67 kcal/mol
+DOCKING RESULTS FOR LIGAND       19 (4)
+Best XP pose:     5;  GlideScore =    -11.05 Emodel =    -62.50 E =    -46.00 Eint =    10.16
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    4 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =     -7.105
+GlideScore(   -7.10)+Epik State Penalty(    0.45) =    -6.65 kcal/mol
+DOCKING RESULTS FOR LIGAND       20 (4)
+Best XP pose:     5;  GlideScore =     -7.10 Emodel =    -51.93 E =    -40.15 Eint =     7.89
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0010_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:56:58 GMT
+CPU time (s): 53.0 user, 0.6 system, 54.7 real
+Total elapsed time = 55 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0010.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0011.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d563
+Name           : glide-dock_XP_5j79_noConstraints-0011
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0011
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0011.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:56:03
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 20
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    1 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =    -10.856
+GlideScore(  -10.86)+Epik State Penalty(    0.04) =   -10.81 kcal/mol
+DOCKING RESULTS FOR LIGAND       21 (3)
+Best XP pose:     3;  GlideScore =    -10.86 Emodel =    -68.79 E =    -46.52 Eint =     0.18
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    4 poses will be postminimized for this ligand
+Reporting postminimized pose   1 GlideScore =     -6.889
+GlideScore(   -6.89)+Epik State Penalty(    1.62) =    -5.27 kcal/mol
+DOCKING RESULTS FOR LIGAND       22 (3)
+Best XP pose:    19;  GlideScore =     -6.89 Emodel =    -55.58 E =    -38.93 Eint =     2.61
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0011_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:56:59 GMT
+CPU time (s): 50.6 user, 0.5 system, 52.2 real
+Total elapsed time = 52 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0011.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0012.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d567
+Name           : glide-dock_XP_5j79_noConstraints-0012
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0012
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0012.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:56:07
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 22
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    4 poses will be postminimized for this ligand
+Reporting postminimized pose   3 GlideScore =     -9.507
+GlideScore(   -9.51)+Epik State Penalty(    0.05) =    -9.46 kcal/mol
+DOCKING RESULTS FOR LIGAND       23 (2)
+Best XP pose:     9;  GlideScore =     -9.51 Emodel =    -69.44 E =    -45.80 Eint =     3.83
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    3 poses will be postminimized for this ligand
+Reporting postminimized pose   2 GlideScore =    -10.341
+GlideScore(  -10.34)+Epik State Penalty(    1.60) =    -8.74 kcal/mol
+DOCKING RESULTS FOR LIGAND       24 (2)
+Best XP pose:     9;  GlideScore =    -10.34 Emodel =    -73.19 E =    -50.84 Eint =     4.68
+GLIDE WARNING: The above ligand had one or more atoms outside the grid box during energy evaluation or minimization.
+1 out of 5991272 energy evaluations were affected.
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0012_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:57:02 GMT
+CPU time (s): 49.6 user, 0.5 system, 51.2 real
+Total elapsed time = 51 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0012.log #########
+######## begin of glide-dock_XP_5j79_noConstraints-0013.log #########
+***WARNING*** XP mode is deprecated. Please use SP instead.
+
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d56b
+Name           : glide-dock_XP_5j79_noConstraints-0013
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints-0013
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide -serial glide-dock_XP_5j79_noConstraints-0013.inp -RESTART -HOST localhost
+StartTime      : 2025-11-13-12:56:11
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Offsetting ligand numbers by 24
+ VdW radii of ligand atoms scaled by   0.80000
+ Charge cutoff for polarity   0.15000
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+ DOCKMAIN: Grid setup finished
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+
+Reading torsion control file '/opt/schrodinger/suites2025-2/internal/bin/../data/glide/torcontrol.txt':
+  
+  Using generalized torsion control 
+  
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+
+GlideScore version XP5.0 will be used
+
+  
+ Buried polar penalty      0.000
+ Coulomb vdW cutoff        0.000
+ H bond cutoff             0.000
+ Metal-ligand cutoff      10.000
+Assigning GlideScore XP5.0 parameters
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+Full force-field refinement in receptor field for up to   10 poses
+    3 poses will be postminimized for this ligand
+Reporting postminimized pose   3 GlideScore =     -9.486
+GlideScore(   -9.49)+Epik State Penalty(    0.05) =    -9.43 kcal/mol
+DOCKING RESULTS FOR LIGAND       25 (1)
+Best XP pose:    14;  GlideScore =     -9.49 Emodel =    -66.47 E =    -47.33 Eint =     9.01
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ limit ligand cpu time to    240.000000000000     
+ Number of rotatable bonds            4
+ Using templates for ring conformations.
+Glide Extra Precision Mode active.
+For Glide Extra Precision mode, will use maxref = 800
+ Use grow mode-p
+  
+    2 poses will be postminimized for this ligand
+Reporting postminimized pose   2 GlideScore =    -10.417
+GlideScore(  -10.42)+Epik State Penalty(    1.53) =    -8.89 kcal/mol
+DOCKING RESULTS FOR LIGAND       26 (1)
+Best XP pose:     7;  GlideScore =    -10.42 Emodel =    -72.13 E =    -49.85 Eint =     6.57
+  
+ REPORT OF DOCKED POSES
+  
+ The ligand structures were written to the file
+glide-dock_XP_5j79_noConstraints-0013_raw.sdfgz
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 12:57:12 GMT
+CPU time (s): 54.6 user, 0.6 system, 56.3 real
+Total elapsed time = 56 seconds
+[running at reduced cpu priority]
+######## end of glide-dock_XP_5j79_noConstraints-0013.log #########

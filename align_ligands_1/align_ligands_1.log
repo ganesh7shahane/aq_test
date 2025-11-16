@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6914d161
+Name           : align_ligands_1
+Program        : align_ligands
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/align_ligands_1
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/align_ligands_1
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/utilities/align_ligands ligands_to_align.mae -ref 1 -core MCS -sample thorough -max 1000 -close_contact 0.5 -JOBNAME align_ligands_1 -HOST localhost:1 -DISP replace -VIEWNAME alignligands -PROJ /var/folders/zs/218995x90vx9h_djl280wv2m0000gn/T/ganeshshahane/Tmp_12Nov2025_1555_12575
+StartTime      : 2025-11-12-18:26:42
+--------------------------------------------------------------------------------
+[running at reduced cpu priority]
+
+Finding MCS cores for 27 structures
+
+Primary reference = structure 1
+
+Aligning 2-->1 (1 of 26): Core SMARTS = [#6]1(-&!@[#6&!R]):&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@1-&!@[#7&!R]-&!@[#6]1:&@[#6]:&@[#6]:&@[#7]:&@[#6]2:&@[#6]:&@1:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@2)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R])-&!@[#8&!R]
+  Shape similarity = 0.999586
+Aligning 3-->1 (2 of 26): Core SMARTS = [#6]1(-&!@[#6&!R]):&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@1-&!@[#7&!R]-&!@[#6]1:&@[#6]:&@[#6]:&@[#7]:&@[#6]2:&@[#6]:&@1:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@2)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R])-&!@[#8&!R]
+  Shape similarity = 0.991786
+Aligning 4-->1 (3 of 26): Core SMARTS = [#6]1:&@[#6]:&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.920083
+Aligning 5-->1 (4 of 26): Core SMARTS = [#6]1:&@[#6]:&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.920014
+Aligning 6-->1 (5 of 26): Core SMARTS = [#6]1:&@[#6]:&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.923629
+Aligning 7-->1 (6 of 26): Core SMARTS = [#6]1:&@[#6]:&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.923604
+Aligning 8-->1 (7 of 26): Core SMARTS = [#6&R]-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.768691
+Aligning 9-->1 (8 of 26): Core SMARTS = [#6&R]-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.790628
+Aligning 10-->1 (9 of 26): Core SMARTS = [#6]1(-&!@[#6&!R]):&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@1-&!@[#7&!R]-&!@[#6]1:&@[#6]:&@[#6]:&@[#7]:&@[#6]2:&@[#6]:&@1:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2)-&!@[#8&!R]
+  Shape similarity = 0.895129
+Aligning 11-->1 (10 of 26): Core SMARTS = [#6]1(-&!@[#6&!R]):&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@1-&!@[#7&!R]-&!@[#6]1:&@[#6]:&@[#6]:&@[#7]:&@[#6]2:&@[#6]:&@1:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2)-&!@[#8&!R]
+  Shape similarity = 0.895016
+Aligning 12-->1 (11 of 26): Core SMARTS = [#6]1(:&@[#6]:&@[#6]:&@[#6](:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#6&!R])-&!@[#8&!R]
+  Shape similarity = 0.789451
+Aligning 13-->1 (12 of 26): Core SMARTS = [#6]1(:&@[#6]:&@[#6]:&@[#6](:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#6&!R])-&!@[#8&!R]
+  Shape similarity = 0.784168
+Aligning 14-->1 (13 of 26): Core SMARTS = [#6]1(:&@[#6]:&@[#6]:&@[#6](:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#6&!R])-&!@[#8&!R]
+  Shape similarity = 0.733747
+Aligning 15-->1 (14 of 26): Core SMARTS = [#6]1(:&@[#6]:&@[#6]:&@[#6](:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#6&!R])-&!@[#8&!R]
+  Shape similarity = 0.729401
+Aligning 16-->1 (15 of 26): Core SMARTS = [#6]1(:&@[#6]:&@[#6]:&@[#6](:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#6&!R])-&!@[#8&!R]
+  Shape similarity = 0.734740
+Aligning 17-->1 (16 of 26): Core SMARTS = [#6]1(:&@[#6]:&@[#6]:&@[#6](:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#6&!R])-&!@[#8&!R]
+  Shape similarity = 0.735293
+Aligning 18-->1 (17 of 26): Core SMARTS = [#6]1(:&@[#6]:&@[#6]:&@[#6](:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#6&!R])-&!@[#8&!R]
+  Shape similarity = 0.730438
+Aligning 19-->1 (18 of 26): Core SMARTS = [#6]1(:&@[#6]:&@[#6]:&@[#6](:&@[#6](:&@[#6]:&@1)-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#6&!R])-&!@[#8&!R]
+  Shape similarity = 0.730944
+Aligning 20-->1 (19 of 26): Core SMARTS = [#6]1:&@[#6]:&@[#6]:&@[#6]2:&@[#6](:&@[#6]:&@1):&@[#7]:&@[#6]:&@[#6]:&@[#6]:&@2-&!@[#7&!R]-&!@[#6]1:&@[#6]:&@[#6](-&!@[#8&!R]):&@[#6]:&@[#6]:&@[#6]:&@1-&!@[#6&!R]
+  Shape similarity = 0.913020
+Aligning 21-->1 (20 of 26): Core SMARTS = [#6]1:&@[#6]:&@[#6]:&@[#6]2:&@[#6](:&@[#6]:&@1):&@[#7]:&@[#6]:&@[#6]:&@[#6]:&@2-&!@[#7&!R]-&!@[#6]1:&@[#6]:&@[#6](-&!@[#8&!R]):&@[#6]:&@[#6]:&@[#6]:&@1-&!@[#6&!R]
+  Shape similarity = 0.913268
+Aligning 22-->1 (21 of 26): Core SMARTS = [#6]1(-&!@[#6&!R]):&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@1-&!@[#7&!R]-&!@[#6]1:&@[#6]:&@[#6]:&@[#7]:&@[#6]2:&@[#6]:&@1:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2)-&!@[#8&!R]
+  Shape similarity = 0.911667
+Aligning 23-->1 (22 of 26): Core SMARTS = [#6]1(-&!@[#6&!R]):&@[#6]:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@1-&!@[#7&!R]-&!@[#6]1:&@[#6]:&@[#6]:&@[#7]:&@[#6]2:&@[#6]:&@1:&@[#6]:&@[#6]:&@[#6]:&@[#6]:&@2)-&!@[#8&!R]
+  Shape similarity = 0.911558
+Aligning 24-->1 (23 of 26): Core SMARTS = [#6&R]-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.700499
+Aligning 25-->1 (24 of 26): Core SMARTS = [#6&R]-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.715796
+Aligning 26-->1 (25 of 26): Core SMARTS = [#6&R]-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.676075
+Aligning 27-->1 (26 of 26): Core SMARTS = [#6&R]-&!@[#7&!R]-&!@[#6]1:&@[#6]2:&@[#6]:&@[#6](:&@[#6]:&@[#6]:&@[#6]:&@2:&@[#7]:&@[#6]:&@[#6]:&@1)-&!@[#16&!R](-&!@[#6&!R])(=&!@[#8&!R])=&!@[#8&!R]
+  Shape similarity = 0.694013
+
+Attempting to superimpose identical sidechains
+Successfully re-snapped 2-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 2-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 2-->1: Sidechain = [#16](-[#6])(=[#8])=[#8], anchor atoms = 17, 14
+Successfully re-snapped 3-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 3-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 3-->1: Sidechain = [#16](-[#6])(=[#8])=[#8], anchor atoms = 17, 14
+Successfully re-snapped 4-->1: Sidechain = [#6]-[#16](=[#8])=[#8], anchor atoms = 5, 14
+Successfully re-snapped 5-->1: Sidechain = [#6]-[#16](=[#8])=[#8], anchor atoms = 5, 14
+Successfully re-snapped 6-->1: Sidechain = [#6]-[#16](=[#8])=[#8], anchor atoms = 5, 14
+Successfully re-snapped 7-->1: Sidechain = [#6]-[#16](=[#8])=[#8], anchor atoms = 5, 14
+Successfully re-snapped 8-->1: Sidechain = [#6]-[#16](=[#8])=[#8], anchor atoms = 5, 14
+Successfully re-snapped 9-->1: Sidechain = [#6]-[#16](=[#8])=[#8], anchor atoms = 5, 14
+Successfully re-snapped 10-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 10-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 11-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 11-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 12-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 12-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 13-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 13-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 14-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 14-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 15-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 15-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 16-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 16-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 17-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 17-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 18-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 18-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 19-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 19-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 20-->1: Sidechain = [#8], anchor atoms = 14, 3
+Successfully re-snapped 20-->1: Sidechain = [#6], anchor atoms = 18, 20
+Successfully re-snapped 21-->1: Sidechain = [#8], anchor atoms = 14, 3
+Successfully re-snapped 21-->1: Sidechain = [#6], anchor atoms = 18, 20
+Successfully re-snapped 21-->20: Sidechain = [#6]-[#8], anchor atoms = 3, 3
+Successfully re-snapped 22-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 22-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 23-->1: Sidechain = [#6], anchor atoms = 2, 20
+Successfully re-snapped 23-->1: Sidechain = [#8], anchor atoms = 5, 3
+Successfully re-snapped 23-->22: Sidechain = [#6](-[#9])(-[#9])-[#9], anchor atoms = 17, 17
+Successfully re-snapped 25-->24: Sidechain = [#6]-[#6](-[#6])-[#16](=[#8])=[#8], anchor atoms = 7, 7
+Successfully re-snapped 27-->26: Sidechain = [#16](=[#8])(=[#8])-[#6](-[#6])(-[#6])-[#6], anchor atoms = 19, 19
+
+Recalculating shape similarities to reference structure
+Structure 2: Old similarity = 0.999586, new similarity = 0.999586
+Structure 3: Old similarity = 0.991786, new similarity = 0.991786
+Structure 4: Old similarity = 0.920083, new similarity = 0.920083
+Structure 5: Old similarity = 0.920014, new similarity = 0.920014
+Structure 6: Old similarity = 0.923629, new similarity = 0.923629
+Structure 7: Old similarity = 0.923604, new similarity = 0.923604
+Structure 8: Old similarity = 0.768691, new similarity = 0.768691
+Structure 9: Old similarity = 0.790628, new similarity = 0.790628
+Structure 10: Old similarity = 0.895129, new similarity = 0.895129
+Structure 11: Old similarity = 0.895016, new similarity = 0.895015
+Structure 12: Old similarity = 0.789451, new similarity = 0.789451
+Structure 13: Old similarity = 0.784168, new similarity = 0.784168
+Structure 14: Old similarity = 0.733747, new similarity = 0.733747
+Structure 15: Old similarity = 0.729401, new similarity = 0.729401
+Structure 16: Old similarity = 0.734740, new similarity = 0.734740
+Structure 17: Old similarity = 0.735293, new similarity = 0.735293
+Structure 18: Old similarity = 0.730438, new similarity = 0.730438
+Structure 19: Old similarity = 0.730944, new similarity = 0.730944
+Structure 20: Old similarity = 0.913020, new similarity = 0.913020
+Structure 21: Old similarity = 0.913268, new similarity = 0.913270
+Structure 22: Old similarity = 0.911667, new similarity = 0.911667
+Structure 23: Old similarity = 0.911558, new similarity = 0.911558
+Structure 25: Old similarity = 0.715796, new similarity = 0.715876
+Structure 27: Old similarity = 0.694013, new similarity = 0.693962
+
+Writing 27 aligned structures to align_ligands_1_align.maegz
+
+Current time: Wed Nov 12 18:26:52 2025
+Elapsed time: 0:00:08.78
+align_ligands successfully completed.
+

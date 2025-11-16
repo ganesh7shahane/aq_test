@@ -1,0 +1,796 @@
+Preparing structure: 5J79_chainA_waters
+Fixing common structure mistakes...
+  No mistakes were found
+Pre-treating metals...
+Done treating metals
+Assigning bond orders...
+  Using CCD: True
+  Processing all residues
+  No bond orders were changed
+Adding missing inter-residues bonds...
+Removing and re-adding hydrogens...
+Treating metals...
+[running at reduced cpu priority]
+Creating di-sulfur bonds...
+Annotating antibody regions...
+Detecting missing residue atoms...
+  No missing side chains found
+Finding het groups (for Epik)...
+Epik was not run, as there are no preparable groups
+Idealizing hydrogen temperature factors...
+Pre-processing has completed
+  will sample waters
+  will include embedded Epik states
+  Using PROPKA with pH: 7.4
+  RUNNING: /opt/schrodinger/suites2025-2/utilities/protassign /Users/ganeshshahane/.schrodinger/tmp/proteinprep_5j79-002/Optimize_H-bond_Assignments.maegz Optimize_H-bond_Assignments-out.maegz -NOJOBID -include_epik_states -propka_pH 7.4
+
+Clustering hydrogen bond network ...
+Found 89 clusters
+
+Cluster 1 (1):
+    A:HOH 501
+Cluster 2 (2):
+    A:HOH 502
+    A:HOH 596
+Cluster 3 (3):
+    A:HOH 503
+    A:HOH 585
+    A:HOH 586
+Cluster 4 (1):
+    A:HOH 504
+Cluster 5 (2):
+    A:HOH 505
+    A:HOH 553
+Cluster 6 (2):
+    A:HOH 506
+    A:HOH 520
+Cluster 7 (3):
+    A:HOH 507
+    A:HOH 519
+    A:HOH 619
+Cluster 8 (1):
+    A:HOH 508
+Cluster 9 (2):
+    A:HOH 509
+    A:HOH 525
+Cluster 10 (2):
+    A:HOH 510
+    A:HOH 581
+Cluster 11 (1):
+    A:HOH 511
+Cluster 12 (3):
+    A:HOH 512
+    A:HOH 604
+    A:HOH 616
+Cluster 13 (1):
+    A:HOH 513
+Cluster 14 (2):
+    A:HOH 514
+    A:HOH 556
+Cluster 15 (1):
+    A:HOH 515
+Cluster 16 (4):
+    A:HOH 516
+    A:HOH 573
+    A:HOH 624
+    A:HOH 631
+Cluster 17 (4):
+    A:HOH 517
+    A:HOH 521
+    A:HOH 564
+    A:HOH 634
+Cluster 18 (4):
+    A:HOH 518
+    A:HOH 574
+    A:HOH 591
+    A:HOH 593
+Cluster 19 (3):
+    A:HOH 522
+    A:HOH 528
+    A:HOH 570
+Cluster 20 (6):
+    A:HOH 523
+    A:HOH 572
+    A:HOH 587
+    A:HOH 603
+    A:HOH 613
+    A:HOH 615
+Cluster 21 (1):
+    A:HOH 524
+Cluster 22 (1):
+    A:HOH 526
+Cluster 23 (1):
+    A:HOH 527
+Cluster 24 (1):
+    A:HOH 529
+Cluster 25 (1):
+    A:HOH 530
+Cluster 26 (1):
+    A:HOH 531
+Cluster 27 (2):
+    A:HOH 532
+    A:HOH 534
+Cluster 28 (2):
+    A:HOH 533
+    A:HOH 601
+Cluster 29 (4):
+    A:HOH 535
+    A:HOH 538
+    A:HOH 592
+    A:HOH 639
+Cluster 30 (1):
+    A:HOH 536
+Cluster 31 (3):
+    A:HOH 537
+    A:HOH 546
+    A:HOH 559
+Cluster 32 (3):
+    A:HOH 539
+    A:HOH 555
+    A:HOH 607
+Cluster 33 (1):
+    A:HOH 540
+Cluster 34 (1):
+    A:HOH 541
+Cluster 35 (1):
+    A:HOH 542
+Cluster 36 (1):
+    A:HOH 543
+Cluster 37 (3):
+    A:HOH 544
+    A:HOH 626
+    A:HOH 630
+Cluster 38 (2):
+    A:HOH 545
+    A:HOH 575
+Cluster 39 (4):
+    A:HOH 547
+    A:HOH 558
+    A:HOH 622
+    A:HOH 623
+Cluster 40 (2):
+    A:HOH 548
+    A:HOH 566
+Cluster 41 (2):
+    A:HOH 549
+    A:HOH 568
+Cluster 42 (1):
+    A:HOH 550
+Cluster 43 (2):
+    A:HOH 551
+    A:HOH 571
+Cluster 44 (1):
+    A:HOH 552
+Cluster 45 (2):
+    A:HOH 554
+    A:HOH 605
+Cluster 46 (1):
+    A:HOH 557
+Cluster 47 (1):
+    A:HOH 560
+Cluster 48 (1):
+    A:HOH 561
+Cluster 49 (1):
+    A:HOH 562
+Cluster 50 (1):
+    A:HOH 563
+Cluster 51 (2):
+    A:HOH 565
+    A:HOH 612
+Cluster 52 (1):
+    A:HOH 567
+Cluster 53 (1):
+    A:HOH 569
+Cluster 54 (1):
+    A:HOH 576
+Cluster 55 (1):
+    A:HOH 577
+Cluster 56 (1):
+    A:HOH 578
+Cluster 57 (1):
+    A:HOH 579
+Cluster 58 (1):
+    A:HOH 580
+Cluster 59 (1):
+    A:HOH 582
+Cluster 60 (1):
+    A:HOH 583
+Cluster 61 (2):
+    A:HOH 584
+    A:HOH 617
+Cluster 62 (2):
+    A:HOH 588
+    A:HOH 599
+Cluster 63 (1):
+    A:HOH 589
+Cluster 64 (1):
+    A:HOH 590
+Cluster 65 (1):
+    A:HOH 594
+Cluster 66 (1):
+    A:HOH 595
+Cluster 67 (2):
+    A:HOH 597
+    A:HOH 632
+Cluster 68 (1):
+    A:HOH 598
+Cluster 69 (1):
+    A:HOH 600
+Cluster 70 (2):
+    A:HOH 602
+    A:HOH 641
+Cluster 71 (1):
+    A:HOH 606
+Cluster 72 (1):
+    A:HOH 608
+Cluster 73 (2):
+    A:HOH 609
+    A:HOH 610
+Cluster 74 (1):
+    A:HOH 611
+Cluster 75 (2):
+    A:HOH 614
+    A:HOH 620
+Cluster 76 (1):
+    A:HOH 618
+Cluster 77 (1):
+    A:HOH 621
+Cluster 78 (1):
+    A:HOH 625
+Cluster 79 (1):
+    A:HOH 627
+Cluster 80 (1):
+    A:HOH 628
+Cluster 81 (1):
+    A:HOH 629
+Cluster 82 (1):
+    A:HOH 633
+Cluster 83 (1):
+    A:HOH 635
+Cluster 84 (1):
+    A:HOH 636
+Cluster 85 (1):
+    A:HOH 637
+Cluster 86 (1):
+    A:HOH 638
+Cluster 87 (1):
+    A:HOH 640
+Cluster 88 (1):
+    A:HOH 642
+Cluster 89 (1):
+    A:HOH 643
+
+Optimizing cluster #1 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 501       -> Initial 1/1
+
+Optimizing cluster #2 ...
+Lowest energy: -1.6700
+Assignments:
+  A:HOH 502       -> Orientation 1/2
+  A:HOH 596       -> Orientation 2/2
+
+Optimizing cluster #3 ...
+Lowest energy: -1.5948
+Assignments:
+  A:HOH 503       -> Orientation 1/2
+  A:HOH 585       -> Orientation 2/2
+  A:HOH 586       -> Orientation 5/6
+
+Optimizing cluster #4 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 504       -> Initial 1/1
+
+Optimizing cluster #5 ...
+Lowest energy: -0.9492
+Assignments:
+  A:HOH 505       -> Orientation 1/2
+  A:HOH 553       -> Orientation 2/2
+
+Optimizing cluster #6 ...
+Lowest energy: -0.7306
+Assignments:
+  A:HOH 506       -> Orientation 1/2
+  A:HOH 520       -> Orientation 2/2
+
+Optimizing cluster #7 ...
+Lowest energy: -2.1024
+Assignments:
+  A:HOH 507       -> Orientation 5/10
+  A:HOH 519       -> Orientation 2/2
+  A:HOH 619       -> Orientation 2/2
+
+Optimizing cluster #8 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 508       -> Initial 1/1
+
+Optimizing cluster #9 ...
+Lowest energy: -1.1376
+Assignments:
+  A:HOH 509       -> Orientation 1/2
+  A:HOH 525       -> Orientation 2/2
+
+Optimizing cluster #10 ...
+Lowest energy: -0.9994
+Assignments:
+  A:HOH 510       -> Orientation 1/2
+  A:HOH 581       -> Orientation 2/2
+
+Optimizing cluster #11 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 511       -> Initial 1/1
+
+Optimizing cluster #12 ...
+Lowest energy: -1.5787
+Assignments:
+  A:HOH 512       -> Orientation 1/2
+  A:HOH 604       -> Orientation 4/5
+  A:HOH 616       -> Orientation 2/2
+
+Optimizing cluster #13 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 513       -> Initial 1/1
+
+Optimizing cluster #14 ...
+Lowest energy: -1.5552
+Assignments:
+  A:HOH 514       -> Orientation 1/2
+  A:HOH 556       -> Orientation 2/2
+
+Optimizing cluster #15 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 515       -> Initial 1/1
+
+Optimizing cluster #16 ...
+Lowest energy: -2.4499
+Assignments:
+  A:HOH 516       -> Orientation 2/2
+  A:HOH 573       -> Orientation 1/2
+  A:HOH 624       -> Orientation 2/8
+  A:HOH 631       -> Orientation 2/2
+
+Optimizing cluster #17 ...
+Lowest energy: -3.8025
+Assignments:
+  A:HOH 517       -> Orientation 1/5
+  A:HOH 521       -> Orientation 4/5
+  A:HOH 564       -> Orientation 4/21
+  A:HOH 634       -> Orientation 2/2
+
+Optimizing cluster #18 ...
+Lowest energy: -5.1200
+Assignments:
+  A:HOH 518       -> Orientation 11/17
+  A:HOH 574       -> Orientation 1/8
+  A:HOH 591       -> Orientation 6/6
+  A:HOH 593       -> Orientation 4/5
+
+Optimizing cluster #19 ...
+Lowest energy: -2.3250
+Assignments:
+  A:HOH 522       -> Orientation 1/2
+  A:HOH 528       -> Orientation 7/8
+  A:HOH 570       -> Orientation 2/2
+
+Optimizing cluster #20 ...
+Lowest energy: -6.2407
+Assignments:
+  A:HOH 523       -> Orientation 5/5
+  A:HOH 572       -> Orientation 8/8
+  A:HOH 587       -> Orientation 6/10
+  A:HOH 603       -> Orientation 1/2
+  A:HOH 613       -> Orientation 2/2
+  A:HOH 615       -> Orientation 1/19
+
+Optimizing cluster #21 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 524       -> Initial 1/1
+
+Optimizing cluster #22 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 526       -> Initial 1/1
+
+Optimizing cluster #23 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 527       -> Initial 1/1
+
+Optimizing cluster #24 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 529       -> Initial 1/1
+
+Optimizing cluster #25 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 530       -> Initial 1/1
+
+Optimizing cluster #26 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 531       -> Initial 1/1
+
+Optimizing cluster #27 ...
+Lowest energy: -1.2266
+Assignments:
+  A:HOH 532       -> Orientation 1/2
+  A:HOH 534       -> Orientation 2/2
+
+Optimizing cluster #28 ...
+Lowest energy: -0.5312
+Assignments:
+  A:HOH 533       -> Orientation 1/2
+  A:HOH 601       -> Orientation 2/2
+
+Optimizing cluster #29 ...
+Lowest energy: -3.6126
+Assignments:
+  A:HOH 535       -> Orientation 1/2
+  A:HOH 538       -> Orientation 2/10
+  A:HOH 592       -> Orientation 2/2
+  A:HOH 639       -> Orientation 6/10
+
+Optimizing cluster #30 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 536       -> Initial 1/1
+
+Optimizing cluster #31 ...
+Lowest energy: -1.9907
+Assignments:
+  A:HOH 537       -> Orientation 2/2
+  A:HOH 546       -> Orientation 1/2
+  A:HOH 559       -> Orientation 6/6
+
+Optimizing cluster #32 ...
+Lowest energy: -1.3132
+Assignments:
+  A:HOH 539       -> Orientation 2/2
+  A:HOH 555       -> Orientation 1/2
+  A:HOH 607       -> Orientation 7/7
+
+Optimizing cluster #33 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 540       -> Initial 1/1
+
+Optimizing cluster #34 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 541       -> Initial 1/1
+
+Optimizing cluster #35 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 542       -> Initial 1/1
+
+Optimizing cluster #36 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 543       -> Initial 1/1
+
+Optimizing cluster #37 ...
+Lowest energy: -2.2615
+Assignments:
+  A:HOH 544       -> Orientation 1/2
+  A:HOH 626       -> Orientation 7/8
+  A:HOH 630       -> Orientation 2/2
+
+Optimizing cluster #38 ...
+Lowest energy: -0.6130
+Assignments:
+  A:HOH 545       -> Orientation 2/2
+  A:HOH 575       -> Orientation 1/2
+
+Optimizing cluster #39 ...
+Lowest energy: -5.3209
+Assignments:
+  A:HOH 547       -> Orientation 11/13
+  A:HOH 558       -> Orientation 5/7
+  A:HOH 622       -> Orientation 7/9
+  A:HOH 623       -> Orientation 2/2
+
+Optimizing cluster #40 ...
+Lowest energy: -0.7677
+Assignments:
+  A:HOH 548       -> Orientation 1/2
+  A:HOH 566       -> Orientation 2/2
+
+Optimizing cluster #41 ...
+Lowest energy: -0.6567
+Assignments:
+  A:HOH 549       -> Orientation 1/2
+  A:HOH 568       -> Orientation 2/2
+
+Optimizing cluster #42 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 550       -> Initial 1/1
+
+Optimizing cluster #43 ...
+Lowest energy: -1.3970
+Assignments:
+  A:HOH 551       -> Orientation 1/2
+  A:HOH 571       -> Orientation 2/2
+
+Optimizing cluster #44 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 552       -> Initial 1/1
+
+Optimizing cluster #45 ...
+Lowest energy: -0.9875
+Assignments:
+  A:HOH 554       -> Orientation 1/2
+  A:HOH 605       -> Orientation 2/2
+
+Optimizing cluster #46 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 557       -> Initial 1/1
+
+Optimizing cluster #47 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 560       -> Initial 1/1
+
+Optimizing cluster #48 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 561       -> Initial 1/1
+
+Optimizing cluster #49 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 562       -> Initial 1/1
+
+Optimizing cluster #50 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 563       -> Initial 1/1
+
+Optimizing cluster #51 ...
+Lowest energy: -0.9496
+Assignments:
+  A:HOH 565       -> Orientation 1/2
+  A:HOH 612       -> Orientation 2/2
+
+Optimizing cluster #52 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 567       -> Initial 1/1
+
+Optimizing cluster #53 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 569       -> Initial 1/1
+
+Optimizing cluster #54 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 576       -> Initial 1/1
+
+Optimizing cluster #55 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 577       -> Initial 1/1
+
+Optimizing cluster #56 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 578       -> Initial 1/1
+
+Optimizing cluster #57 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 579       -> Initial 1/1
+
+Optimizing cluster #58 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 580       -> Initial 1/1
+
+Optimizing cluster #59 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 582       -> Initial 1/1
+
+Optimizing cluster #60 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 583       -> Initial 1/1
+
+Optimizing cluster #61 ...
+Lowest energy: -1.2553
+Assignments:
+  A:HOH 584       -> Orientation 1/2
+  A:HOH 617       -> Orientation 2/2
+
+Optimizing cluster #62 ...
+Lowest energy: -1.5178
+Assignments:
+  A:HOH 588       -> Orientation 1/2
+  A:HOH 599       -> Orientation 2/2
+
+Optimizing cluster #63 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 589       -> Initial 1/1
+
+Optimizing cluster #64 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 590       -> Initial 1/1
+
+Optimizing cluster #65 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 594       -> Initial 1/1
+
+Optimizing cluster #66 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 595       -> Initial 1/1
+
+Optimizing cluster #67 ...
+Lowest energy: -1.4200
+Assignments:
+  A:HOH 597       -> Orientation 1/2
+  A:HOH 632       -> Orientation 2/2
+
+Optimizing cluster #68 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 598       -> Initial 1/1
+
+Optimizing cluster #69 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 600       -> Initial 1/1
+
+Optimizing cluster #70 ...
+Lowest energy: -0.5942
+Assignments:
+  A:HOH 602       -> Orientation 1/2
+  A:HOH 641       -> Orientation 2/2
+
+Optimizing cluster #71 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 606       -> Initial 1/1
+
+Optimizing cluster #72 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 608       -> Initial 1/1
+
+Optimizing cluster #73 ...
+Lowest energy: -1.1839
+Assignments:
+  A:HOH 609       -> Orientation 1/2
+  A:HOH 610       -> Orientation 2/2
+
+Optimizing cluster #74 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 611       -> Initial 1/1
+
+Optimizing cluster #75 ...
+Lowest energy: -1.6759
+Assignments:
+  A:HOH 614       -> Orientation 1/2
+  A:HOH 620       -> Orientation 2/2
+
+Optimizing cluster #76 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 618       -> Initial 1/1
+
+Optimizing cluster #77 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 621       -> Initial 1/1
+
+Optimizing cluster #78 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 625       -> Initial 1/1
+
+Optimizing cluster #79 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 627       -> Initial 1/1
+
+Optimizing cluster #80 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 628       -> Initial 1/1
+
+Optimizing cluster #81 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 629       -> Initial 1/1
+
+Optimizing cluster #82 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 633       -> Initial 1/1
+
+Optimizing cluster #83 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 635       -> Initial 1/1
+
+Optimizing cluster #84 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 636       -> Initial 1/1
+
+Optimizing cluster #85 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 637       -> Initial 1/1
+
+Optimizing cluster #86 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 638       -> Initial 1/1
+
+Optimizing cluster #87 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 640       -> Initial 1/1
+
+Optimizing cluster #88 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 642       -> Initial 1/1
+
+Optimizing cluster #89 ...
+Lowest energy: 0.0000
+Assignments:
+  A:HOH 643       -> Initial 1/1
+
+
+Recalculating pKas to identify changes in protonation penalties...
+No changes in protonation penalties found.
+
+Combined total energy: -61.5314
+Structure extracted from file: /Users/ganeshshahane/.schrodinger/tmp/proteinprep_5j79-002/Optimize_H-bond_Assignments.maegz
+Output structure will be written to: Optimize_H-bond_Assignments-out.maegz
+
+Complete. Output file: Optimize_H-bond_Assignments-out.maegz
+Idealizing hydrogen temperature factors...
+Optimize H-bond job completed
+Running restrained minimization...
+  RMSD: 0.3
+  Force field: S-OPLS
+  all atoms
+Setting up minimizer (S-OPLS)
+Stage 1. Minimizing hydrogen atoms.
+Stage 2. Minimizing all atoms.
+ it. 0  :   0.00A |   -259.526 kcal/mol
+ it. 1  :   0.41A |   -217.807 kcal/mol
+  exceeded max rmsd: halving minimizer steps.
+ it. 2  :   0.27A |   -447.103 kcal/mol
+ it. 3  :   0.39A |   -161.983 kcal/mol
+  exceeded max rmsd: halving minimizer steps.
+ it. 4  :   0.32A |   -285.766 kcal/mol
+  exceeded max rmsd: halving minimizer steps.
+ it. 5  :   0.32A |   -314.350 kcal/mol
+  exceeded max rmsd: exiting minimization.
+Wrote minimized structure to Clean_Up-impref-out.maegz
+Final rmsd=0.27A energy=-447.103 kcal/mol
+Time elapsed: 7.2s
+Deleting waters...
+Deleting far waters...
+done deleting waters
+Number of output structures: 1

@@ -1,0 +1,107 @@
+
+====================================
+            Glide Script            
+====================================
+
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915d520
+Name           : glide-dock_XP_5j79_noConstraints
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/glide-dock_XP_5j79_noConstraints
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-dock_XP_5j79_noConstraints
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide glide-dock_XP_5j79_noConstraints.in -OVERWRITE -adjust -HOST localhost:8 -PROJ /var/folders/zs/218995x90vx9h_djl280wv2m0000gn/T/ganeshshahane/Tmp_12Nov2025_1555_12575 -DISP append -VIEWNAME glide_docking_gui.DockingPanel -TMPLAUNCHDIR
+StartTime      : 2025-11-13-12:54:57
+--------------------------------------------------------------------------------
+
+Running locally: False
+Max retries: 2
+Input file: glide-dock_XP_5j79_noConstraints.in
+
+*** WARNING *** XP mode is deprecated. Please use SP instead.
+Setting up docking job
+Separating ligands...
+Number of structures that are to be docked: 26
+Setting up Glide docking jobs...
+
+Running subjobs on hosts:
+  localhost (Max: 8)
+Number of jobs:       13
+Max retries per job:  2
+Max allowed failures: unlimited
+Verbosity:            normal
+
+Starting JobDJ...
+
+Keep one job on driver host: False
+JobDJ columns:
+  C: Number of completed subjobs
+  A: Number of active subjobs (e.g., submitted, running)
+  W: Number of waiting/pending subjobs
+
+ C  A  W | Activity  JobId  JobName  JobHost
+-- -- -- | --------- -----------------------
+ 0  1 12 | launched  Ganeshs-MacBook-Pro-2-0-6915d526 glide-dock_XP_5j79_noConstraints-0001 localhost [Ganeshs-MacBook-Pro-2]
+ 0  2 11 | launched  Ganeshs-MacBook-Pro-2-0-6915d529 glide-dock_XP_5j79_noConstraints-0002 localhost [Ganeshs-MacBook-Pro-2]
+ 0  3 10 | launched  Ganeshs-MacBook-Pro-2-0-6915d52c glide-dock_XP_5j79_noConstraints-0003 localhost [Ganeshs-MacBook-Pro-2]
+ 0  4  9 | launched  Ganeshs-MacBook-Pro-2-0-6915d52f glide-dock_XP_5j79_noConstraints-0004 localhost [Ganeshs-MacBook-Pro-2]
+ 0  5  8 | launched  Ganeshs-MacBook-Pro-2-0-6915d532 glide-dock_XP_5j79_noConstraints-0005 localhost [Ganeshs-MacBook-Pro-2]
+ 0  6  7 | launched  Ganeshs-MacBook-Pro-2-0-6915d536 glide-dock_XP_5j79_noConstraints-0006 localhost [Ganeshs-MacBook-Pro-2]
+ 0  7  6 | launched  Ganeshs-MacBook-Pro-2-0-6915d53b glide-dock_XP_5j79_noConstraints-0007 localhost [Ganeshs-MacBook-Pro-2]
+ 0  8  5 | launched  Ganeshs-MacBook-Pro-2-0-6915d540 glide-dock_XP_5j79_noConstraints-0008 localhost [Ganeshs-MacBook-Pro-2]
+ 1  7  5 | finished  Ganeshs-MacBook-Pro-2-0-6915d52c glide-dock_XP_5j79_noConstraints-0003 localhost [Ganeshs-MacBook-Pro-2]
+[running at reduced cpu priority]
+ 1  8  4 | launched  Ganeshs-MacBook-Pro-2-0-6915d55b glide-dock_XP_5j79_noConstraints-0009 localhost [Ganeshs-MacBook-Pro-2]
+ 2  7  4 | finished  Ganeshs-MacBook-Pro-2-0-6915d526 glide-dock_XP_5j79_noConstraints-0001 localhost [Ganeshs-MacBook-Pro-2]
+ 3  6  4 | finished  Ganeshs-MacBook-Pro-2-0-6915d529 glide-dock_XP_5j79_noConstraints-0002 localhost [Ganeshs-MacBook-Pro-2]
+ 3  7  3 | launched  Ganeshs-MacBook-Pro-2-0-6915d55f glide-dock_XP_5j79_noConstraints-0010 localhost [Ganeshs-MacBook-Pro-2]
+ 3  8  2 | launched  Ganeshs-MacBook-Pro-2-0-6915d563 glide-dock_XP_5j79_noConstraints-0011 localhost [Ganeshs-MacBook-Pro-2]
+ 4  7  2 | finished  Ganeshs-MacBook-Pro-2-0-6915d52f glide-dock_XP_5j79_noConstraints-0004 localhost [Ganeshs-MacBook-Pro-2]
+ 5  6  2 | finished  Ganeshs-MacBook-Pro-2-0-6915d532 glide-dock_XP_5j79_noConstraints-0005 localhost [Ganeshs-MacBook-Pro-2]
+ 5  7  1 | launched  Ganeshs-MacBook-Pro-2-0-6915d567 glide-dock_XP_5j79_noConstraints-0012 localhost [Ganeshs-MacBook-Pro-2]
+ 5  8  0 | launched  Ganeshs-MacBook-Pro-2-0-6915d56b glide-dock_XP_5j79_noConstraints-0013 localhost [Ganeshs-MacBook-Pro-2]
+ 6  7  0 | finished  Ganeshs-MacBook-Pro-2-0-6915d536 glide-dock_XP_5j79_noConstraints-0006 localhost [Ganeshs-MacBook-Pro-2]
+ 7  6  0 | finished  Ganeshs-MacBook-Pro-2-0-6915d55f glide-dock_XP_5j79_noConstraints-0010 localhost [Ganeshs-MacBook-Pro-2]
+ 8  5  0 | finished  Ganeshs-MacBook-Pro-2-0-6915d563 glide-dock_XP_5j79_noConstraints-0011 localhost [Ganeshs-MacBook-Pro-2]
+ 9  4  0 | finished  Ganeshs-MacBook-Pro-2-0-6915d567 glide-dock_XP_5j79_noConstraints-0012 localhost [Ganeshs-MacBook-Pro-2]
+10  3  0 | finished  Ganeshs-MacBook-Pro-2-0-6915d56b glide-dock_XP_5j79_noConstraints-0013 localhost [Ganeshs-MacBook-Pro-2]
+11  2  0 | finished  Ganeshs-MacBook-Pro-2-0-6915d540 glide-dock_XP_5j79_noConstraints-0008 localhost [Ganeshs-MacBook-Pro-2]
+12  1  0 | finished  Ganeshs-MacBook-Pro-2-0-6915d53b glide-dock_XP_5j79_noConstraints-0007 localhost [Ganeshs-MacBook-Pro-2]
+13  0  0 | finished  Ganeshs-MacBook-Pro-2-0-6915d55b glide-dock_XP_5j79_noConstraints-0009 localhost [Ganeshs-MacBook-Pro-2]
+
+All jobs have completed.
+
+13 of 13 job(s) succeeded; 0 job(s) failed.
+
+All jobs succeeded: 26 ligands done.
+Writing 26 poses to glide-dock_XP_5j79_noConstraints_lib.sdfgz; database holds 26 poses.
+Best docking score: -11.714
+Writing glide-dock_XP_5j79_noConstraints.csv
+Writing glide-dock_XP_5j79_noConstraints_skip.csv
+Writing glide-dock_XP_5j79_noConstraints.vsdb
+Added 26 physicochemical properties to hits.
+Combining log files to glide-dock_XP_5j79_noConstraints_subjobs.log
+Archiving subjob pose files in glide-dock_XP_5j79_noConstraints_subjob_poses.zip
+Archiving subjob input and log files in glide-dock_XP_5j79_noConstraints_subjobs.tar.gz
+Cleaning up...
+
+Elapsed times:
+- preprocessing: 0.1 s
+- running subjobs: 180.0 s
+- postprocessing: 0.6 s
+- cleanup: 0.0 s
+
+All Glide docking subjobs: Total CPU time = 13 minutes and 51 seconds
+
+Finished at: Thu Nov 13 12:58:00 2025
+Total elapsed time for Glide script = 3 minutes and 1 second

@@ -1,0 +1,50 @@
+--- This project was created on Wed Nov 12 15:55:12 2025
+
+-----
+Wed Nov 12 15:55:29 2025
+Imported file:
+/Users/ganeshshahane/Work/aq_test/RIPK2_5AR4.pdb
+
+-----
+Wed Nov 12 17:14:31 2025
+Imported file:
+/Users/ganeshshahane/Work/aq_test/5AR4.pdb
+
+-----
+Wed Nov 12 17:45:56 2025
+Imported file:
+/Users/ganeshshahane/Work/aq_test/RIPK2_ligands.sdf
+
+-----
+Wed Nov 12 17:49:35 2025
+Starting Receptor Grid Generation
+Job name: glide-grid_5ar4_chainB
+Job ID: Ganeshs-MacBook-Pro-2-0-6914c8ae
+
+-----
+Wed Nov 12 17:57:12 2025
+Imported file:
+/Users/ganeshshahane/align_ligands_1/align_ligands_1_align.maegz
+
+-----
+Wed Nov 12 18:14:10 2025
+Imported file:
+/Users/ganeshshahane/Work/aq_test/5J79.pdb
+
+-----
+Thu Nov 13 10:46:47 2025
+Starting Receptor Grid Generation
+Job name: glide-grid_5j79_chainB_2
+Job ID: Ganeshs-MacBook-Pro-2-0-6915b716
+
+-----
+Thu Nov 13 10:55:10 2025
+Starting Ligand Docking
+Job name: glide-dock_XP_1
+Job ID: Ganeshs-MacBook-Pro-2-0-6915b90d
+
+-----
+Thu Nov 13 12:54:57 2025
+Starting Ligand Docking
+Job name: glide-dock_XP_5j79_noConstraints
+Job ID: Ganeshs-MacBook-Pro-2-0-6915d520

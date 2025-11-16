@@ -1,0 +1,8 @@
+SMILES,title,i_i_glide_lignum,docking_status,r_glide_cpu_time,r_i_docking_score,s_i_glide_gridfile,r_glide_XP_ClBr,r_glide_XP_Electro,r_glide_XP_GScore,r_glide_XP_HBond,i_glide_XP_impact_version,r_glide_XP_LipophilicEvdW,r_glide_XP_LowMW,r_glide_XP_Penalties,r_glide_XP_HBPenal,r_glide_XP_ExposPenal,r_glide_XP_RotPenal,r_glide_XP_PhobEn,r_glide_XP_PhobEnHB,r_glide_XP_PhobEnPairHB,r_glide_XP_PiCat,r_glide_XP_PiStack,i_glide_XP_PoseRank,r_glide_XP_Sitemap,r_glide_XP_Zpotr,r_i_glide_gscore,r_i_glide_evdw,r_i_glide_ecoul,r_i_glide_energy,r_i_glide_einternal,r_i_glide_emodel
+Cc1ccc(O)cc1Nc1cc[nH+]c2ccc(S(C)(=O)=O)cc12,"11",2,"NO POSES STORED FOR LIGAND",21.2,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CS(=O)(=O)c1ccc2[nH+]ccc(Nc3ccc4scnc4c3)c2c1,"9",6,"NO POSES STORED FOR LIGAND",17.82,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cc1ccc(O)cc1Nc1cc[nH+]c2ccc(-c3cccnc3)cc12,"6",12,"NO POSES STORED FOR LIGAND",25.41,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cc1ccc(O)cc1Nc1cc[nH+]c2ccc(C(=O)NC[C@H]3CCCOC3)cc12,"12",17,"NO POSES STORED FOR LIGAND",59.8,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cc1ccc(O)cc1Nc1cc[nH+]c2ccc(C(=O)NC[C@@H]3CCCOC3)cc12,"12",18,"NO POSES STORED FOR LIGAND",45.49,,,,,,,,,,,,,,,,,,,,,,,,,,,
+COc1ccc2[nH+]ccc(Nc3cc(O)ccc3C)c2c1,"4",20,"NO POSES STORED FOR LIGAND",22.8,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Cc1ccc(O)cc1Nc1cc[nH+]c2ccc(C(F)(F)F)cc12,"3",22,"NO POSES STORED FOR LIGAND",22.05,,,,,,,,,,,,,,,,,,,,,,,,,,,

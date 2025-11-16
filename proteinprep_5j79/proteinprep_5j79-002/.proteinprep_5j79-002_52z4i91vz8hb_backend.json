@@ -1,0 +1,116 @@
+{
+    "_version_": 70133,
+    "_value_": {
+        "calling_context": null,
+        "input": {
+            "do_preprocess": true,
+            "do_hbond": true,
+            "do_cleanup": true,
+            "use_pdb_ph_if_available": false,
+            "preprocess": {
+                "struct": null,
+                "reference_struct": null,
+                "preprocess_delete_far_waters": false,
+                "preprocess_watdist": 8.0,
+                "treat_metals": true,
+                "assign_bond_orders": true,
+                "use_ccd": true,
+                "skip_assigned_residues": false,
+                "add_missing_inter_residue_bonds": true,
+                "add_hydrogens": false,
+                "readd_hydrogens": true,
+                "add_terminal_oxygens": false,
+                "treat_disulfides": true,
+                "treat_glycosylation": false,
+                "treat_palmitoylation": false,
+                "antibody_cdr_scheme": 2,
+                "renumber_ab_residues": false,
+                "tcr_cdr_scheme": 3,
+                "renumber_tcr_residues": false,
+                "selenomethionines": false,
+                "fillsidechains": true,
+                "fillloops": false,
+                "custom_fasta_file": null,
+                "cap_termini": false,
+                "cap_termini_min_atoms": 200,
+                "run_epik": true,
+                "idealize_hydrogen_tf": true,
+                "abo_options": {
+                    "use_ccd": true,
+                    "skip_assigned_residues": false
+                },
+                "generate_states_settings": {
+                    "use_epikx": true,
+                    "epik_pH": 7.4,
+                    "epik_pHt": 2.0,
+                    "max_states": 1,
+                    "process_detected_ligands": true,
+                    "process_metals_and_ions": true,
+                    "process_non_water_solvents": false,
+                    "process_other_hets": true
+                }
+            },
+            "hbond": {
+                "struct": null,
+                "samplewater": true,
+                "include_epik_states": true,
+                "xtal": false,
+                "simplified_pH": "neutral",
+                "use_propka": true,
+                "propka_pH": 7.4,
+                "label_pkas": false,
+                "force_list": [],
+                "minimize_adj_h": false,
+                "protassign_number_sequential_cycles": null,
+                "protassign_max_cluster_size": null,
+                "idealize_hydrogen_tf": true
+            },
+            "cleanup": {
+                "struct": null,
+                "run_impref": true,
+                "rmsd": 0.3,
+                "fixheavy": false,
+                "delete_far_waters": true,
+                "watdist": 5.0,
+                "delete_nonbridging_waters": false,
+                "delwater_hbond_cutoff": 3,
+                "force_field": ""
+            },
+            "struct": null
+        },
+        "output": {
+            "postprocess_valence_error": false,
+            "structs": [
+                ""
+            ]
+        },
+        "status": 0,
+        "name": "proteinprep_5j79-002",
+        "progress": 0,
+        "max_progress": 0,
+        "progress_string": "",
+        "failure_info": {
+            "exception_class_name": "",
+            "message": "",
+            "traceback_str": ""
+        },
+        "_license_reservations": {},
+        "_run_as_backend": false,
+        "_run_in_process": false,
+        "_combo_id": "dp75zl15aohw",
+        "_task_module": "schrodinger.application.prepwizard2.tasks",
+        "_task_class": "PPWorkflowTask",
+        "_task_script": "",
+        "_input_yaml_file": "",
+        "job_config": {
+            "viewname": "PPWorkflowTask",
+            "jobname": "proteinprep_5j79-002",
+            "host_settings": {
+                "name": null,
+                "num_subjobs": null,
+                "allowed_host_types": 1
+            }
+        },
+        "_use_async_jobhandler": false
+    }
+}

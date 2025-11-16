@@ -1,0 +1,51 @@
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6914d040
+Name           : ligprep_aq12
+Program        : LigPrep
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/ligprep_aq12
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/ligprep_aq12
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/ligprep -inp /Users/ganeshshahane/ligprep_aq12/ligprep_aq12.inp -NJOBS 1 -JOBNAME ligprep_aq12 -HOST localhost:1 -DISP append -VIEWNAME ligprep_job -PROJ /var/folders/zs/218995x90vx9h_djl280wv2m0000gn/T/ganeshshahane/Tmp_12Nov2025_1555_12575
+StartTime      : 2025-11-12-18:21:53
+--------------------------------------------------------------------------------
+[running at reduced cpu priority]
+LigPrep (version 74133). Copyright Schrodinger, LLC. All rights reserved.
+
+LigPrep command:
+$SCHRODINGER/ligprep -ma 500 -bff 16 -epikx -ac -s 32 -imae ligprep_aq12.maegz -osd ligprep_aq12-out.sdf
+
+Processing steps:
+$DO.htreat -t All-None -a all -s -l 500 <infile.mae> <outfile.mae>
+$DO.desalter <infile.mae> <outfile.mae>
+$DO.neutralizer -m 500 <infile.mae> <outfile.mae>
+$DO.guard <infile.mae> <outfile.mae>
+$DO.epikx.py -ph 7.4 -ma 500 <infile.mae> <outfile.mae>
+$DO.stereoizer -label_specified_chiralities -n 32 -a <infile.mae> <outfile.mae>
+$DO.cgx -optimize -ffld 16 -epsilon 10.0 <infile.mae> <outfile.mae>
+$DO.filterstereo -max_stereo 32 <infile.mae> <outfile.mae>
+
+DO=$SCHRODINGER/run python3 -m schrodinger.application.macromodel.packages.ligprep3
+
+# counts of output and dropped structures after processing steps
+# index  htreat  desalt  neutra   guard   epik   stereo    cgx   filter  title
+       1   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '11'
+       2   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '10'
+       3   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '9'
+       4   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '8'
+       5   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '7'
+       6   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '6'
+       7   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '5'
+       8   1/0     1/0     1/0     1/0     2/0     4/0     4/0     4/0   '12'
+       9   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '4'
+      10   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '3'
+      11   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '2'
+      12   1/0     1/0     1/0     1/0     2/0     2/0     2/0     2/0   '1'
+
+# of processed structures in "ligprep_aq12-out.sdf" : 26
+# of dropped structures in "ligprep_aq12-dropped.maegz" : 0
+
+backend run time: 0 hours 0 minutes 21.945 seconds

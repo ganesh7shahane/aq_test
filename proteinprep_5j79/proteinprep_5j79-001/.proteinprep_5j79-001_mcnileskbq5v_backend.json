@@ -1,0 +1,116 @@
+{
+    "_version_": 70133,
+    "_value_": {
+        "calling_context": null,
+        "input": {
+            "do_preprocess": true,
+            "do_hbond": true,
+            "do_cleanup": true,
+            "use_pdb_ph_if_available": false,
+            "preprocess": {
+                "struct": null,
+                "reference_struct": null,
+                "preprocess_delete_far_waters": false,
+                "preprocess_watdist": 8.0,
+                "treat_metals": true,
+                "assign_bond_orders": true,
+                "use_ccd": true,
+                "skip_assigned_residues": false,
+                "add_missing_inter_residue_bonds": true,
+                "add_hydrogens": false,
+                "readd_hydrogens": true,
+                "add_terminal_oxygens": false,
+                "treat_disulfides": true,
+                "treat_glycosylation": false,
+                "treat_palmitoylation": false,
+                "antibody_cdr_scheme": 2,
+                "renumber_ab_residues": false,
+                "tcr_cdr_scheme": 3,
+                "renumber_tcr_residues": false,
+                "selenomethionines": false,
+                "fillsidechains": true,
+                "fillloops": false,
+                "custom_fasta_file": null,
+                "cap_termini": false,
+                "cap_termini_min_atoms": 200,
+                "run_epik": true,
+                "idealize_hydrogen_tf": true,
+                "abo_options": {
+                    "use_ccd": true,
+                    "skip_assigned_residues": false
+                },
+                "generate_states_settings": {
+                    "use_epikx": true,
+                    "epik_pH": 7.4,
+                    "epik_pHt": 2.0,
+                    "max_states": 1,
+                    "process_detected_ligands": true,
+                    "process_metals_and_ions": true,
+                    "process_non_water_solvents": false,
+                    "process_other_hets": true
+                }
+            },
+            "hbond": {
+                "struct": null,
+                "samplewater": true,
+                "include_epik_states": true,
+                "xtal": false,
+                "simplified_pH": "neutral",
+                "use_propka": true,
+                "propka_pH": 7.4,
+                "label_pkas": false,
+                "force_list": [],
+                "minimize_adj_h": false,
+                "protassign_number_sequential_cycles": null,
+                "protassign_max_cluster_size": null,
+                "idealize_hydrogen_tf": true
+            },
+            "cleanup": {
+                "struct": null,
+                "run_impref": true,
+                "rmsd": 0.3,
+                "fixheavy": false,
+                "delete_far_waters": true,
+                "watdist": 5.0,
+                "delete_nonbridging_waters": false,
+                "delwater_hbond_cutoff": 3,
+                "force_field": ""
+            },
+            "struct": null
+        },
+        "output": {
+            "postprocess_valence_error": false,
+            "structs": [
+                "f_m_ct { \n s_m_title\n b_ppw_created_disulfur\n b_ppw_prepared\n i_m_Source_File_Index\n i_pdb_PDB_CRYST1_z\n r_pdb_PDB_CRYST1_a\n r_pdb_PDB_CRYST1_alpha\n r_pdb_PDB_CRYST1_b\n r_pdb_PDB_CRYST1_beta\n r_pdb_PDB_CRYST1_c\n r_pdb_PDB_CRYST1_gamma\n r_pdb_PDB_EXPDTA_TEMPERATURE\n r_pdb_PDB_R\n r_pdb_PDB_RESOLUTION\n r_pdb_PDB_Rfree\n r_ppw_minimizer_energy\n r_ppw_minimizer_rmsd\n r_ppw_preprocess_pH\n s_ff_OPLSVersion\n s_m_Chain_Name\n s_m_Source_File\n s_m_Source_Path\n s_m_entry_id\n s_m_entry_name\n s_pdb_PDB_CLASSIFICATION\n s_pdb_PDB_CRYST1_Space_Group\n s_pdb_PDB_DEPOSITION_DATE\n s_pdb_PDB_EXPDTA\n s_pdb_PDB_ID\n s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Chains\n s_pdb_PDB_REMARK_350_Biomolecule_1_Transform_1_Matrix_1\n s_pdb_PDB_TITLE\n s_pdb_PDB_format_version\n s_ppw_het_states\n s_ppw_prepared_with_version\n i_m_ct_format\n :::\n 5J79_chainA_ligand \n 1\n 1\n 1\n 12\n 133.523\n 90\n 133.523\n 90\n 107.946\n 120\n 100\n 0.161\n 2.69\n 0.219\n -81.00127150990039\n 0.11854586444866574\n 7.4\n OPLS4 \n A \n 5J79.pdb \n /Users/ganeshshahane/Work/aq_test \n 73 \n 5J79.1_A_ligand \n \"TRANSFERASE/TRANSFERASE INHIBITOR\" \n \"P 32 2 1\" \n 06-APR-16 \n \"X-RAY DIFFRACTION\" \n 5J79 \n \"A, B\" \n \"1.000000 0.000000 0.000000   0.000000;0.000000 1.000000 0.000000   0.000000;0.000000 0.000000 1.000000   0.000000\" \n \"THE IDENTIFICATION AND PHARMACOLOGICAL CHARACTERIZATION OF 6-(TERT- BUTYLSULFONYL)-N-(5-FLUORO-1H-INDAZOL-3-YL)QUINOLIN-4-AMINE (GSK583), A HIGHLY POTENT AND SELECTIVE INHIBITOR OF RIP2 KINASE, COMPOUND 3 COMPLEX\" \n 3.30 \n eJxNktFugzAMRX8F8cyqOIGE7FdQhVCXdkgMqoROmhD/Phtsygv32thHtpUlb39DTP00tvln5hQYU2SY64ZXoMySA36bJb99d/EREgUNFJm6FlmjWQ1ryVqxWlbHWrN6VlBihAiCBGGCQEGoIFgQLggYhKyFrI9Zhaw3Mrp8il+4umyEeNgYRWbZYgsWa7bUCLxu+bYEBt6+4mpSxWmC2ZP3XIPD09yH91yDOdpZi5e5/J4/vOUaOiLIDHRICrQcE8w5kP4N6uSP3QOQm9JYIFekA76DjUa3e4axG+Y/PJ66KFWVvvQanK0q75SjJ/QT5m5o97J+ezf4lGqU8gJgtVKmtqCN9T58KLtiR7pNMWDB+BoGDPvxPrVpjqdMaqfYP3pEYvLeDSms13X9B1Gpo+w= \n 2025-2 \n  2\n m_atom[39] { \n  # First column is atom index #\n  i_m_mmod_type\n  r_m_x_coord\n  r_m_y_coord\n  r_m_z_coord\n  i_m_residue_number\n  s_m_chain_name\n  i_m_color\n  r_m_charge1\n  r_m_charge2\n  s_m_pdb_residue_name\n  s_m_pdb_atom_name\n  i_m_atomic_number\n  i_m_visibility\n  s_m_color_rgb\n  s_m_label_format\n  i_m_label_color\n  s_m_label_user_text\n  b_pa_ligand_oxygen_charged_in_subset_of_states\n  i_m_Hcount\n  i_m_ribbon_transparency\n  i_pa_atomindex\n  i_pa_ligand_shared_changeable_index\n  i_pdb_PDB_serial\n  i_ppw_anum\n  i_ppw_het\n  i_rdk_index\n  r_epik_H2O_pKa\n  r_epik_H2O_pKa_uncertainty\n  r_epik_Metal_State_Penalty\n  r_m_pdb_tfactor\n  s_ppw_CCD_assignment_status\n  :::\n  1 25 49.559136 54.573229 22.437181 401 \"A\" 38 -0.68327 -0.68327 \"6GE \" \" N1 \" 7 1 2E2EFF \"\" 1 \"\"  <> 1 0 1 <> 4546 1 1 0 <> <> <> 38.33 \"CCD match\" \n  2 2 49.016795 58.061714 20.178448 401 \"A\" 104 -0.23876 -0.23876 \"6GE \" \" C4 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 1 0 2 <> 4547 2 1 1 <> <> <> 34.53 \"CCD match\" \n  3 2 48.887906 58.063674 21.560260 401 \"A\" 104 0.23572 0.23572 \"6GE \" \" C5 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 0 0 3 <> 4548 3 1 2 <> <> <> 36.61 \"CCD match\" \n  4 2 49.055784 56.886873 22.280232 401 \"A\" 104 -0.19688 -0.19688 \"6GE \" \" C6 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 1 0 4 <> 4549 4 1 3 <> <> <> 33.75 \"CCD match\" \n  5 2 49.378236 55.699806 21.624321 401 \"A\" 104 0.25487 0.25487 \"6GE \" \" C7 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 0 0 5 <> 4550 5 1 4 <> <> <> 35.52 \"CCD match\" \n  6 2 50.604139 53.636738 22.481686 401 \"A\" 104 0.25724 0.25724 \"6GE \" \" C8 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 0 0 6 <> 4551 6 1 5 <> <> <> 37.28 \"CCD match\" \n  7 2 52.863218 53.003067 21.929530 401 \"A\" 104 0.07986 0.07986 \"6GE \" \" C10\" 6 1 E6E6E6 \"\" 1 \"\"  <> 1 0 7 <> 4552 7 1 6 <> <> <> 34.45 \"CCD match\" \n  8 2 50.423135 50.036514 24.743468 401 \"A\" 104 -0.04101 -0.04101 \"6GE \" \" C13\" 6 1 E6E6E6 \"\" 1 \"\"  <> 1 0 8 <> 4553 8 1 7 <> <> <> 39.06 \"CCD match\" \n  9 2 49.331046 52.053599 23.967582 401 \"A\" 104 -0.05405 -0.05405 \"6GE \" \" C15\" 6 1 E6E6E6 \"\" 1 \"\"  <> 1 0 9 <> 4554 9 1 8 <> <> <> 39.74 \"CCD match\" \n  10 3 48.178241 51.035169 27.327634 401 \"A\" 104 -0.37292 -0.37292 \"6GE \" \" C17\" 6 1 E6E6E6 \"\" 1 \"\"  <> 3 0 10 <> 4555 10 1 9 <> <> <> 45.11 \"CCD match\" \n  11 15 46.723049 51.207476 25.079670 401 \"A\" 70 -0.53558 -0.53558 \"6GE \" \" O3 \" 8 1 FF2E2E \"\" 1 \"\"  <> 0 0 11 <> 4556 11 1 10 <> <> <> 48.91 \"CCD match\" \n  12 113 47.834757 50.418821 25.614130 401 \"A\" 143 0.84686 0.84686 \"6GE \" \" S  \" 16 1 FFFF6B \"\" 1 \"\"  <> 0 0 12 <> 4557 12 1 11 <> <> <> 53.86 \"CCD match\" \n  13 15 47.784264 48.957592 25.674449 401 \"A\" 70 -0.53558 -0.53558 \"6GE \" \" O2 \" 8 1 FF2E2E \"\" 1 \"\"  <> 0 0 13 <> 4558 13 1 12 <> <> <> 48.4 \"CCD match\" \n  14 2 49.307960 50.871155 24.708085 401 \"A\" 104 -0.18135 -0.18135 \"6GE \" \" C14\" 6 1 E6E6E6 \"\" 1 \"\"  <> 0 0 14 <> 4559 14 1 13 <> <> <> 46.05 \"CCD match\" \n  15 2 51.581179 50.377073 24.049354 401 \"A\" 104 -0.18193 -0.18193 \"6GE \" \" C12\" 6 1 E6E6E6 \"\" 1 \"\"  <> 1 0 15 <> 4560 15 1 14 <> <> <> 35.22 \"CCD match\" \n  16 2 50.498753 52.436302 23.250348 401 \"A\" 104 -0.00868 -0.00868 \"6GE \" \" C16\" 6 1 E6E6E6 \"\" 1 \"\"  <> 0 0 16 <> 4561 16 1 15 <> <> <> 39.7 \"CCD match\" \n  17 2 51.637320 51.572826 23.298315 401 \"A\" 104 0.18006 0.18006 \"6GE \" \" C11\" 6 1 E6E6E6 \"\" 1 \"\"  <> 0 0 17 <> 4562 17 1 16 <> <> <> 38.07 \"CCD match\" \n  18 25 52.793797 51.857279 22.644850 401 \"A\" 38 -0.30640 -0.30640 \"6GE \" \" N2 \" 7 1 2E2EFF \"\" 1 \"\"  <> 0 0 18 <> 4563 18 1 17 5.477504854173888 0.4779247920324503 7.081657837566296e-06 36.56 \"CCD match\" \n  19 2 51.810762 53.905586 21.834010 401 \"A\" 104 -0.26621 -0.26621 \"6GE \" \" C9 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 1 0 19 <> 4564 19 1 18 <> <> <> 31.53 \"CCD match\" \n  20 2 49.483746 55.682974 20.217773 401 \"A\" 104 -0.14931 -0.14931 \"6GE \" \" C2 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 0 0 20 <> 4565 20 1 19 <> <> <> 33.18 \"CCD match\" \n  21 3 49.704005 54.401347 19.419682 401 \"A\" 104 -0.11879 -0.11879 \"6GE \" \" C1 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 3 0 21 <> 4566 21 1 20 <> <> <> 29.6 \"CCD match\" \n  22 16 48.598328 59.229777 22.205861 401 \"A\" 70 -0.59552 -0.59552 \"6GE \" \" O1 \" 8 1 FF2E2E %UT 13 \"\"  1 1 0 22 1 4567 22 1 21 <> <> <> 39.18 \"CCD match\" \n  23 2 49.304516 56.875039 19.506760 401 \"A\" 104 -0.05975 -0.05975 \"6GE \" \" C3 \" 6 1 E6E6E6 \"\" 1 \"\"  <> 1 0 23 <> 4568 23 1 22 <> <> <> 33.82 \"CCD match\" \n  24 43 48.919614 54.526505 23.212990 401 \"A\" 21 0.32528 0.32528 \"6GE \" \" HN1\" 1 1 FFFFFF \"\" 1 \"\"  <> 0 <> 24 <> <> <> <> 23 <> <> <> 38.33 <> \n  25 41 48.878639 58.981287 19.629233 401 \"A\" 21 0.13285 0.13285 \"6GE \" \" HC4\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 25 <> <> <> <> 24 <> <> <> 34.53 <> \n  26 41 48.966620 56.898071 23.353814 401 \"A\" 21 0.14651 0.14651 \"6GE \" \" HC6\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 26 <> <> <> <> 25 <> <> <> 33.75 <> \n  27 41 53.804169 53.197237 21.432394 401 \"A\" 21 0.16317 0.16317 \"6GE \" \"HC10\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 27 <> <> <> <> 26 <> <> <> 34.45 <> \n  28 41 50.382548 49.110016 25.303271 401 \"A\" 21 0.15393 0.15393 \"6GE \" \"HC13\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 28 <> <> <> <> 27 <> <> <> 39.06 <> \n  29 41 48.446944 52.674800 23.925408 401 \"A\" 21 0.15644 0.15644 \"6GE \" \"HC15\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 29 <> <> <> <> 28 <> <> <> 39.74 <> \n  30 41 49.064555 50.525320 27.692898 401 \"A\" 21 0.16391 0.16391 \"6GE \" \"H171\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 30 <> <> <> <> 29 <> <> <> 45.11 <> \n  31 41 48.320242 52.110037 27.273159 401 \"A\" 21 0.16391 0.16391 \"6GE \" \"H172\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 31 <> <> <> <> 30 <> <> <> 45.11 <> \n  32 41 47.308654 50.785088 27.929642 401 \"A\" 21 0.16391 0.16391 \"6GE \" \"H173\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 32 <> <> <> <> 31 <> <> <> 45.11 <> \n  33 41 52.447763 49.731398 24.068264 401 \"A\" 21 0.15809 0.15809 \"6GE \" \"HC12\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 33 <> <> <> <> 32 <> <> <> 35.22 <> \n  34 41 51.938037 54.818051 21.271458 401 \"A\" 21 0.15244 0.15244 \"6GE \" \" HC9\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 34 <> <> <> <> 33 <> <> <> 31.53 <> \n  35 41 49.163187 54.437130 18.473199 401 \"A\" 21 0.06849 0.06849 \"6GE \" \"H1_1\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 35 <> <> <> <> 34 <> <> <> 29.6 <> \n  36 41 50.760686 54.249864 19.201176 401 \"A\" 21 0.06849 0.06849 \"6GE \" \"H1_2\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 36 <> <> <> <> 35 <> <> <> 29.6 <> \n  37 41 49.319066 53.528866 19.948613 401 \"A\" 21 0.06849 0.06849 \"6GE \" \"H1_3\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 37 <> <> <> <> 36 <> <> <> 29.6 <> \n  38 41 49.374487 56.884752 18.428436 401 \"A\" 21 0.13655 0.13655 \"6GE \" \" HC3\" 1 0 FFFFFF \"\" 1 \"\"  <> 0 <> 38 <> <> <> <> 37 <> <> <> 33.82 <> \n  39 42 48.514528 59.117938 23.153044 401 \"A\" 21 0.44891 0.44891 \"6GE \" \" HO1\" 1 1 FFFFFF \"\" 1 \"\"  <> 0 <> 39 1 <> <> <> 38 10.02515180288447 0.2666769576437248 <> 39.18 <> \n  :::\n } \n m_bond[41] { \n  # First column is bond index #\n  i_m_from\n  i_m_to\n  i_m_order\n  :::\n  1 1 5 1\n  2 1 6 1\n  3 1 24 1\n  4 2 3 2\n  5 2 23 1\n  6 2 25 1\n  7 3 4 1\n  8 3 22 1\n  9 4 5 2\n  10 4 26 1\n  11 5 20 1\n  12 6 16 1\n  13 6 19 2\n  14 7 18 2\n  15 7 19 1\n  16 7 27 1\n  17 8 14 2\n  18 8 15 1\n  19 8 28 1\n  20 9 14 1\n  21 9 16 2\n  22 9 29 1\n  23 10 12 1\n  24 10 30 1\n  25 10 31 1\n  26 10 32 1\n  27 11 12 2\n  28 12 13 2\n  29 12 14 1\n  30 15 17 2\n  31 15 33 1\n  32 16 17 1\n  33 17 18 1\n  34 19 34 1\n  35 20 21 1\n  36 20 23 2\n  37 21 35 1\n  38 21 36 1\n  39 21 37 1\n  40 22 39 1\n  41 23 38 1\n  :::\n } \n m_PDB_SEQRES[2] { \n  s_pdb_chain_id\n  s_pdb_SEQRES\n  :::\n  1 A  \"MET ASP TYR LYS ASP ASP ASP ASP LYS GLU ASN LEU TYR PHE GLN GLY MET ASN GLY GLU ALA ILE CYS SER ALA LEU PRO THR ILE PRO TYR HIS LYS LEU ALA ASP LEU ARG TYR LEU SER ARG GLY ALA SER GLY THR VAL SER SER ALA ARG HIS ALA ASP TRP ARG VAL GLN VAL ALA VAL LYS HIS LEU HIS ILE HIS THR PRO LEU LEU ASP SER GLU ARG LYS ASP VAL LEU ARG GLU ALA GLU ILE LEU HIS LYS ALA ARG PHE SER TYR ILE LEU PRO ILE LEU GLY ILE CYS ASN GLU PRO GLU PHE LEU GLY ILE VAL THR GLU TYR MET PRO ASN GLY SER LEU ASN GLU LEU LEU HIS ARG LYS THR GLU TYR PRO ASP VAL ALA TRP PRO LEU ARG PHE ARG ILE LEU HIS GLU ILE ALA LEU GLY VAL ASN TYR LEU HIS ASN MET THR PRO PRO LEU LEU HIS HIS ASP LEU LYS THR GLN ASN ILE LEU LEU ASP ASN GLU PHE HIS VAL LYS ILE ALA ASP PHE GLY LEU SER LYS TRP ARG MET MET SER LEU SER GLN SER ARG SER SER LYS SER ALA PRO GLU GLY GLY THR ILE ILE TYR MET PRO PRO GLU ASN TYR GLU PRO GLY GLN LYS SER ARG ALA SER ILE LYS HIS ASP ILE TYR SER TYR ALA VAL ILE THR TRP GLU VAL LEU SER ARG LYS GLN PRO PHE GLU ASP VAL THR ASN PRO LEU GLN ILE MET TYR SER VAL SER GLN GLY HIS ARG PRO VAL ILE ASN GLU GLU SER LEU PRO TYR ASP ILE PRO HIS ARG ALA ARG MET ILE SER LEU ILE GLU SER GLY TRP ALA GLN ASN PRO ASP GLU ARG PRO SER PHE LEU LYS CYS LEU ILE GLU LEU GLU PRO VAL LEU ARG THR PHE GLU GLU ILE THR PHE LEU GLU ALA VAL ILE GLN LEU LYS \" \n  2 B  \"MET ASP TYR LYS ASP ASP ASP ASP LYS GLU ASN LEU TYR PHE GLN GLY MET ASN GLY GLU ALA ILE CYS SER ALA LEU PRO THR ILE PRO TYR HIS LYS LEU ALA ASP LEU ARG TYR LEU SER ARG GLY ALA SER GLY THR VAL SER SER ALA ARG HIS ALA ASP TRP ARG VAL GLN VAL ALA VAL LYS HIS LEU HIS ILE HIS THR PRO LEU LEU ASP SER GLU ARG LYS ASP VAL LEU ARG GLU ALA GLU ILE LEU HIS LYS ALA ARG PHE SER TYR ILE LEU PRO ILE LEU GLY ILE CYS ASN GLU PRO GLU PHE LEU GLY ILE VAL THR GLU TYR MET PRO ASN GLY SER LEU ASN GLU LEU LEU HIS ARG LYS THR GLU TYR PRO ASP VAL ALA TRP PRO LEU ARG PHE ARG ILE LEU HIS GLU ILE ALA LEU GLY VAL ASN TYR LEU HIS ASN MET THR PRO PRO LEU LEU HIS HIS ASP LEU LYS THR GLN ASN ILE LEU LEU ASP ASN GLU PHE HIS VAL LYS ILE ALA ASP PHE GLY LEU SER LYS TRP ARG MET MET SER LEU SER GLN SER ARG SER SER LYS SER ALA PRO GLU GLY GLY THR ILE ILE TYR MET PRO PRO GLU ASN TYR GLU PRO GLY GLN LYS SER ARG ALA SER ILE LYS HIS ASP ILE TYR SER TYR ALA VAL ILE THR TRP GLU VAL LEU SER ARG LYS GLN PRO PHE GLU ASP VAL THR ASN PRO LEU GLN ILE MET TYR SER VAL SER GLN GLY HIS ARG PRO VAL ILE ASN GLU GLU SER LEU PRO TYR ASP ILE PRO HIS ARG ALA ARG MET ILE SER LEU ILE GLU SER GLY TRP ALA GLN ASN PRO ASP GLU ARG PRO SER PHE LEU LYS CYS LEU ILE GLU LEU GLU PRO VAL LEU ARG THR PHE GLU GLU ILE THR PHE LEU GLU ALA VAL ILE GLN LEU LYS \" \n  :::\n } \n m_PDB_het_residues[2] { \n  s_pdb_het_id\n  s_pdb_het_name\n  s_pdb_het_formula\n  :::\n  1 6GE  \"4-METHYL-3-{[6-(METHYLSULFONYL)QUINOLIN-4- YL]AMINO}PHENOL\"  \"C17 H16 N2 O3 S\" \n  2 SO4  \"SULFATE ION\"  \"O4 S 2-\" \n  :::\n } \n} \n\n"
+            ]
+        },
+        "status": 0,
+        "name": "proteinprep_5j79-001",
+        "progress": 0,
+        "max_progress": 0,
+        "progress_string": "",
+        "failure_info": {
+            "exception_class_name": "",
+            "message": "",
+            "traceback_str": ""
+        },
+        "_license_reservations": {},
+        "_run_as_backend": false,
+        "_run_in_process": false,
+        "_combo_id": "e0pyaz9g5rt4",
+        "_task_module": "schrodinger.application.prepwizard2.tasks",
+        "_task_class": "PPWorkflowTask",
+        "_task_script": "",
+        "_input_yaml_file": "",
+        "job_config": {
+            "viewname": "PPWorkflowTask",
+            "jobname": "proteinprep_5j79-001",
+            "host_settings": {
+                "name": null,
+                "num_subjobs": null,
+                "allowed_host_types": 1
+            }
+        },
+        "_use_async_jobhandler": false
+    }
+}

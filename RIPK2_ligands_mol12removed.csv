@@ -1,0 +1,12 @@
+IC50 RIKP2 (nM),ID,ROMol,SMILES,pIC50_RIPK2
+3.0,11,<rdkit.Chem.rdchem.Mol object at 0x117134040>,Cc1ccc(O)cc1Nc1ccnc2ccc(S(C)(=O)=O)cc12,8.52288
+50.0,10,<rdkit.Chem.rdchem.Mol object at 0x1171340b0>,CS(=O)(=O)c1ccc2nccc(Nc3ccc4[nH]nnc4c3)c2c1,7.30103
+6.3,9,<rdkit.Chem.rdchem.Mol object at 0x146ff2f10>,CS(=O)(=O)c1ccc2nccc(Nc3ccc4scnc4c3)c2c1,8.20066
+50.0,8,<rdkit.Chem.rdchem.Mol object at 0x146ff2180>,CS(=O)(=O)c1ccc2nccc(Nc3n[nH]c4ccc(F)cc34)c2c1,7.30103
+630.0,7,<rdkit.Chem.rdchem.Mol object at 0x146ff2ff0>,Cc1ccc(O)cc1Nc1ccnc2ccccc12,6.20066
+10.0,6,<rdkit.Chem.rdchem.Mol object at 0x146ff3060>,Cc1ccc(O)cc1Nc1ccnc2ccc(-c3cccnc3)cc12,8
+20.0,5,<rdkit.Chem.rdchem.Mol object at 0x146ff30d0>,Cc1ccc(O)cc1Nc1ccnc2ccc(C(=O)NCC3CCOCC3)cc12,7.69897
+250.0,4,<rdkit.Chem.rdchem.Mol object at 0x146ff31b0>,COc1ccc2nccc(Nc3cc(O)ccc3C)c2c1,6.60206
+8.0,3,<rdkit.Chem.rdchem.Mol object at 0x146ff3220>,Cc1ccc(O)cc1Nc1ccnc2ccc(C(F)(F)F)cc12,8.09691
+10.0,2,<rdkit.Chem.rdchem.Mol object at 0x146ff3290>,CC(C)S(=O)(=O)c1ccc2nccc(Nc3n[nH]c4ccc(F)cc34)c2c1,8
+5.0,1,<rdkit.Chem.rdchem.Mol object at 0x146ff3300>,CC(C)(C)S(=O)(=O)c1ccc2nccc(Nc3[nH]nc4ccc(F)cc34)c2c1,8.30103

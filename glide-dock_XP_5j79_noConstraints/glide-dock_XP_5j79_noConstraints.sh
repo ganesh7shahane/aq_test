@@ -1,0 +1,1 @@
+"${SCHRODINGER}/glide" glide-dock_XP_5j79_noConstraints.in -OVERWRITE -adjust -HOST localhost:8 -TMPLAUNCHDIR

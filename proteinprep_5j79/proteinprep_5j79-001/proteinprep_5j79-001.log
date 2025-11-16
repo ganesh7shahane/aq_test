@@ -1,0 +1,77 @@
+Preparing structure: 5J79_chainA_ligand
+Fixing common structure mistakes...
+  No mistakes were found
+Pre-treating metals...
+Done treating metals
+Assigning bond orders...
+  Using CCD: True
+  Processing all residues
+  No bond orders were changed
+Adding missing inter-residues bonds...
+Removing and re-adding hydrogens...
+Treating metals...
+[running at reduced cpu priority]
+Creating di-sulfur bonds...
+Annotating antibody regions...
+Detecting missing residue atoms...
+  No missing side chains found
+Finding het groups (for Epik)...
+Processing 1 het groups...
+  Using EpikX with pH: 7.4
+        and pH Range: 2.0
+  Max het states per protein: 10
+Epik completed; filtering undesired states...
+Number of hets: 1
+Keeping max states: 1
+Idealizing hydrogen temperature factors...
+Pre-processing has completed
+  will sample waters
+  will include embedded Epik states
+  Using PROPKA with pH: 7.4
+  RUNNING: /opt/schrodinger/suites2025-2/utilities/protassign /Users/ganeshshahane/.schrodinger/tmp/proteinprep_5j79-001/Optimize_H-bond_Assignments.maegz Optimize_H-bond_Assignments-out.maegz -NOJOBID -include_epik_states -propka_pH 7.4
+[running at reduced cpu priority]
+Running EpikX to generate ligand states...
+
+Clustering hydrogen bond network ...
+Found 1 clusters
+
+Cluster 1 (2):
+    A:6GE 401
+    A:6GE 401: HO1
+
+Optimizing cluster #1 ...
+Lowest energy: 0.0169
+Assignments:
+  A:6GE 401       -> State 1 | 0
+  A:6GE 401: HO1  -> Orientation 1/2
+
+
+Recalculating pKas to identify changes in protonation penalties...
+No changes in protonation penalties found.
+
+Combined total energy: 0.0169
+Structure extracted from file: /Users/ganeshshahane/.schrodinger/tmp/proteinprep_5j79-001/Optimize_H-bond_Assignments.maegz
+Output structure will be written to: Optimize_H-bond_Assignments-out.maegz
+
+Complete. Output file: Optimize_H-bond_Assignments-out.maegz
+Idealizing hydrogen temperature factors...
+Optimize H-bond job completed
+Running restrained minimization...
+  RMSD: 0.3
+  Force field: S-OPLS
+  all atoms
+Setting up minimizer (S-OPLS)
+Stage 1. Minimizing hydrogen atoms.
+Stage 2. Minimizing all atoms.
+ it. 0  :   0.00A |    -68.905 kcal/mol
+ it. 1  :   0.10A |    -80.929 kcal/mol
+ it. 2  :   0.12A |    -81.001 kcal/mol
+ it. 3  :   0.12A |    -81.001 kcal/mol
+  minimization converged.
+Wrote minimized structure to Clean_Up-impref-out.maegz
+Final rmsd=0.12A energy=-81.001 kcal/mol
+Time elapsed: 6.8s
+Deleting waters...
+Deleting far waters...
+done deleting waters
+Number of output structures: 1

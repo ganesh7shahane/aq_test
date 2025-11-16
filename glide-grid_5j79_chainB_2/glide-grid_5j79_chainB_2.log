@@ -1,0 +1,42 @@
+Glide version 107133 (mmshare version 70133)
+mmshare         4877919b03
+glide-src       4739c3e2b3
+psp-src         8660d505cf
+macromodel-src  e7c3be6a0e
+epik-src        0a9064d3f5
+
+Copyright (c) Schrodinger, LLC.
+All Rights Reserved.
+
+--------------------------------------------------------------------------------
+JobId          : Ganeshs-MacBook-Pro-2-0-6915b716
+Name           : glide-grid_5j79_chainB_2
+Program        : Glide
+Version        : 2025-2 build 133
+Host           : Ganeshs-MacBook-Pro-2.local
+Dir            : /Users/ganeshshahane/glide-grid_5j79_chainB_2
+HostEntry      : localhost
+JobHost        : Ganeshs-MacBook-Pro-2.local
+JobDir         : /Users/ganeshshahane/.schrodinger/tmp/glide-grid_5j79_chainB_2
+JobSchrodinger : /opt/schrodinger/suites2025-2
+Commandline    : /opt/schrodinger/suites2025-2/glide glide-grid_5j79_chainB_2.in -OVERWRITE -HOST localhost -PROJ /var/folders/zs/218995x90vx9h_djl280wv2m0000gn/T/ganeshshahane/Tmp_12Nov2025_1555_12575 -DISP ignore -VIEWNAME glide_gridgen_gui.GridGenPanel -TMPLAUNCHDIR
+StartTime      : 2025-11-13-10:46:47
+--------------------------------------------------------------------------------
+
+[running at reduced cpu priority]
+Calling OPLS_2005 atomtyping ...
+Finished parameter assignment
+ VdW radii of protein atoms scaled by   1.00000
+ Charge cutoff for polarity  0.25000
+Glide will write receptor constraints info to file: glide-grid_5j79_chainB_2.cons
+ Receptor setup: (nsites, nx, ny, nz, bsize)=( 125, 24, 24, 24,  1.00000 )
+ Screening setup finished.
+ DOCKMAIN: getting receptor.
+ DOCKMAIN after grid: (nx, ny, nz) = ( 64, 64, 64 ).
+Creating output grid archive 'glide-grid_5j79_chainB_2.zip'
+
+Exiting Glide
+Date: Thursday, November 13 2025, at 10:47:02 GMT
+CPU time (s): 12.0 user, 0.4 system, 12.5 real
+Total elapsed time = 12 seconds
+[running at reduced cpu priority]
